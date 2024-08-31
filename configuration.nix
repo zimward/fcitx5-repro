@@ -8,9 +8,6 @@
   services.getty.autologinUser = "repro";
   programs.sway = {
     enable = true;
-    extraSessionCommands = ''
-      fcitx5 -d
-    '';
   };
   services.xserver.xkb.layout = "de";
   services.xserver.xkb.variant = "dvorak";
